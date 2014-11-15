@@ -61,7 +61,7 @@ h6 {
 }
 
 
-/* BUTTONS 
+BUTTONS 
 .btn-xl {
     padding: 20px 40px;
     border-color: #8DE8B9;
@@ -98,6 +98,7 @@ h6 {
     font-family: 'Permanent Marker', cursive;
     color: #E83EC2;
 }
+
 /*NAME HOVER*/
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
