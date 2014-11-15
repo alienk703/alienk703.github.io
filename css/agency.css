@@ -61,13 +61,13 @@ h6 {
 }
 
 
-BUTTONS 
+ BUTTONS 
 .btn-xl {
     padding: 20px 40px;
     border-color: #8DE8B9;
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: 'Permanent Marker', cursive;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
@@ -187,7 +187,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/portbg.png);
+    background-image: url(../img/portbg.svg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
