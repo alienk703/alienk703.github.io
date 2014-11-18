@@ -390,7 +390,9 @@ section h3.section-subheading {
 }
 
 /* CODEPEN */
-
+.col-md-12 {
+    padding: 1em;
+}
 
 /* CONTACT  */
 section#contact {
