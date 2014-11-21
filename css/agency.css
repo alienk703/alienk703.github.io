@@ -42,6 +42,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
+    text-decoration: none;
     color: #fec503;
 }
 
@@ -256,10 +257,6 @@ section h2.section-heading {
     font-size: 60px;
 }
 
-section h2.section-heading a:hover{
-    color: red;
-}
-
 section h3.section-subheading {
     color: #33334C;
     margin-bottom: 75px;
@@ -407,6 +404,11 @@ section#contact .section-heading {
     color: black;
 }
 
+section#contact .section-heading:hover {
+    color: #e83ec2;
+}
+
+
 section#contact .form-group {
     margin-bottom: 25px;
 }
@@ -461,6 +463,11 @@ section#contact .text-danger {
     color: #e74c3c;
 }
 
+.contact-me {
+    background-color: rgba(255,255,255,0.5);
+    height: 12em;
+    padding: 1em;
+}
 
 /* FOOTER */
 
