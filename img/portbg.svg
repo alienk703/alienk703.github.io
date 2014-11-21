@@ -3103,13 +3103,13 @@
                   315.811,176.48
                   326.867,194.196
                   306.925,191.26">
-            <animateTransform attributeName="transform"
+<!--             <animateTransform attributeName="transform"
                           attributeType="XML"
                           type="translate"
                           from="-400 -6 "
                           to="1560 500 "
                           dur="2s"
-                          repeatCount="1"/>
+                          repeatCount="0"/> -->
           </polygon>
 
 

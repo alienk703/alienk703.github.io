@@ -8,12 +8,15 @@
  * Copyright 2013, Codrops
  * http://www.codrops.com
  */
+
+// Add Classie plug in after AboutMe to make navbar BG black 
 var cbpAnimatedHeader = (function() {
 
+// Triggering black BG for the navbar 
 	var docElem = document.documentElement,
 		header = document.querySelector( '.navbar-default' ),
 		didScroll = false,
-		changeHeaderOn = 300;
+		changeHeaderOn = 600;
 
 	function init() {
 		window.addEventListener( 'scroll', function( event ) {
