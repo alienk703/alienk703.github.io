@@ -4,6 +4,14 @@ h1, h2, h3, h4 {
 	color: white;
 }
 
+.bgfilter {
+	width: 100%;
+	height: 1000px;
+	background-color: black;
+	position: absolute;
+	opacity: 0.6;
+}
+
 .menus {
 	margin-top: 5px;
 	width: 35%;
