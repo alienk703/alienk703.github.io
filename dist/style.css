@@ -6,25 +6,31 @@ h1, h2, h3, h4 {
 
 .menus {
 	margin-top: 5px;
-	width: 50%;
-	margin-right: auto;
-	margin-left: auto;
-	display: flex;
-	float: left;
-}
-
-.location {
-	margin-top: 10px;
+	width: 35%;
 	margin-right: auto;
 	margin-left: auto;
 	display: flex;
 	float: right;
+	color: #ffffff;
+}
+
+.location {
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	float: right;
+	color: #ffffff;
 
 }
 
 .greeting {
 	text-align: left;
-	margin-top: 15%;
+	margin-top: 13%;
+}
+
+.intro {
+	margin-top: 11%;
 }
 
 .header {

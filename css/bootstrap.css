@@ -1407,7 +1407,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 100%;
   }
 }
 .container-fluid {
@@ -4196,8 +4196,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+/*  background-color: #f8f8f8;*/
+  border-color: #ffffff;
 }
 .navbar-default .navbar-brand {
   color: #777;
