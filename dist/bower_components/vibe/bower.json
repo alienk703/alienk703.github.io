@@ -1,0 +1,22 @@
+{
+  "name": "vibe",
+  "version": "3.0.0-Alpha1",
+  "main": "vibe.js",
+  "ignore": [
+    "node_modules",
+    "test",
+    ".*",
+    "bower.json",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": [
+    "realtime",
+    "websocket",
+    "http",
+    "comet",
+    "streaming",
+    "longpolling"
+  ]
+}

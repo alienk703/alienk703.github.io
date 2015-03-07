@@ -1,0 +1,33 @@
+{
+  "name": "vibe",
+  "version": "3.0.0-Alpha9",
+  "main": "vibe.js",
+  "ignore": [
+    "node_modules",
+    "test",
+    ".*",
+    "bower.json",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": [
+    "realtime",
+    "websocket",
+    "http",
+    "comet",
+    "streaming",
+    "longpolling"
+  ],
+  "homepage": "https://github.com/vibe-project/vibe-javascript-client",
+  "_release": "3.0.0-Alpha9",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.0.0-Alpha9",
+    "commit": "b5caf669df9b7524722cfde73b830713645ebfe1"
+  },
+  "_source": "git://github.com/vibe-project/vibe-javascript-client.git",
+  "_target": "~3.0.0-Alpha9",
+  "_originalSource": "vibe",
+  "_direct": true
+}
