@@ -24,10 +24,12 @@ h1, h2, h3, h4 {
 
 }
 
-.greeting {
-	text-align: left;
-	margin-top: 13%;
+.greeting img{
+	margin-left: 20%;
+	margin-top: 40%;
 }
+
+
 
 .intro {
 	margin-top: 11%;
