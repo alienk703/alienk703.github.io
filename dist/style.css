@@ -40,8 +40,8 @@ h1, h2, h3, h4 {
 }
 
 .greeting {
-	border-right: 1px solid white;
-	height: 650px;
+/*	border-right: 1px solid white;*/
+	height: auto;
 }
 
 .greeting img{
@@ -55,13 +55,14 @@ h1, h2, h3, h4 {
 }
 
 .intro {
-	margin-top: 11%;
-	border-bottom: 1px solid white;
+	margin-top: 50px;
+/*	border-bottom: 1px solid white;*/
+	border-left: 1px solid white;
 	padding-bottom: 20px;
 }
 
 .intro2 {
-
+	padding-top: 20px;
 }
 
 .header {
