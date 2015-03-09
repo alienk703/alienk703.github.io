@@ -182,7 +182,9 @@ h6 {
     }
 }
 
-
+video {
+    width: 100%;
+}
 
 header {
     text-align: center;
