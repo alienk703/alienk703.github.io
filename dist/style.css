@@ -65,6 +65,19 @@ h1, h2, h3, h4 {
 	padding-top: 20px;
 }
 
+.pages {
+	margin-top: 0px !important;
+	top: 0;
+/*	margin-left: 200px;*/
+	margin-top: 50px;
+	min-height: 650px;
+	background-color: black;
+}
+
+.contents {
+	margin-top: 150px;
+}
+
 .header {
 	position: fixed;
 	width: 100%;
@@ -82,7 +95,9 @@ h1, h2, h3, h4 {
 	display: table-cell;
 }
 
-.projects {
+#projects {
+	min-height: 650px;
+	padding-top: 40px;
 	left: 0;
 	right: 0;
 	background: url(../img/lowerbg.png) no-repeat center top ;
@@ -97,7 +112,7 @@ h1, h2, h3, h4 {
 		height: 1150px;
 	}
 
-	.projects {
+	#projects {
 	width: 100% !important;
 	}
 }
