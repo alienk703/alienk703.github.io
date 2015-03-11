@@ -2,6 +2,7 @@ h1, h2, h3, h4 {
 	font-size: 70px;
 	font-family: 'Josefin Sans', sans-serif !important;
 	color: white;
+	margin:0px;
 }
 
 .bgfilter {
@@ -58,11 +59,13 @@ h1, h2, h3, h4 {
 	margin-top: 50px;
 /*	border-bottom: 1px solid white;*/
 	border-left: 1px solid white;
-	padding-bottom: 20px;
+	padding-left: 50px !important;
+	padding-top: 40px !important;
 }
 
 .intro2 {
 	padding-top: 20px;
+	padding-bottom: 40px;
 }
 
 .pages {
