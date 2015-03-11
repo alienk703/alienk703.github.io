@@ -31,6 +31,19 @@ h1, h2, h3, h4 {
 	color: #ffffff;
 }
 
+.menubutton {
+	color: #ffffff;
+	background-color: transparent;
+	transition: background-color 0.5s ease;
+}
+
+.menubutton:hover {
+  background-color: rgba(228, 159, 159, 0.3) !important;
+  color: #ffffff;
+}
+
+
+
 .location {
 	margin-top: 15px;
 	margin-right: auto;
