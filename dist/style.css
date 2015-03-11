@@ -5,6 +5,79 @@ h1, h2, h3, h4 {
 	margin:0px;
 }
 
+
+
+/* IMAGE SPIRITE SSN*/
+.ssn-menu {
+	width: 200px;
+	height: 50px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+.twitter {
+	margin-top: 10px;
+	background: url(../img/ssnicons2.png) no-repeat;
+	width: 30px;
+	height: 30px;
+	background-position: 0px 0px;
+	transition: background-position 0.3s ease;
+}
+.facebook {
+	margin-left: 20px;
+	margin-top: 10px;
+	background: url(../img/ssnicons2.png) no-repeat;
+	width: 30px;
+	height: 30px;
+	background-position: -30px 0px;
+	transition: background-position 0.3s ease;
+}
+.linkedin {
+	margin-left: 20px;
+	margin-top: 10px;
+	background: url(../img/ssnicons2.png) no-repeat;
+	width: 30px;
+	height: 30px;
+	background-position: -59px 0px;
+	transition: background-position 0.3s ease;
+}
+.github {
+	margin-left: 20px;
+	margin-top: 10px;
+	background: url(../img/ssnicons2.png) no-repeat;
+	width: 30px;
+	height: 30px;
+	background-position: -90px 0px;
+	transition: background-position 0.3s ease;
+}
+.email {
+	margin-left: 20px;
+	margin-top: 10px;
+	background: url(../img/ssnicons2.png) no-repeat;
+	width: 30px;
+	height: 30px;
+	background-position: -120px 0px;
+	transition: background-position 0.3s ease;
+}
+
+.twitter:hover {
+	background-position: 0px -30px;
+}
+.facebook:hover {
+	background-position: -30px -30px;
+}
+.linkedin:hover {
+	background-position: -59px -30px;
+}
+.github:hover {
+	background-position: -90px -30px;
+}
+.email:hover {
+	background-position: -120px -30px;
+}
+
+
+/* Background black filter*/
 .bgfilter {
 	width: 100%;
 	height: 6500px;
@@ -12,7 +85,6 @@ h1, h2, h3, h4 {
 	position: absolute;
 	opacity: 0.6;
 }
-
 .bgfilterlow {
 	width: 100%;
 	height: 1520px;
@@ -21,29 +93,30 @@ h1, h2, h3, h4 {
 	opacity: 0.6;
 }
 
+
+
+/* HEADER MENU*/
+.navbar {
+	height: 50px;
+}
 .menus {
 	margin-top: 5px;
-	width: 21%;
+	width: 200px;
 	margin-right: auto;
 	margin-left: auto;
 	display: flex;
 	float: right;
 	color: #ffffff;
 }
-
 .menubutton {
 	color: #ffffff;
 	background-color: transparent;
 	transition: background-color 0.5s ease;
 }
-
 .menubutton:hover {
   background-color: rgba(228, 159, 159, 0.3) !important;
   color: #ffffff;
 }
-
-
-
 .location {
 	margin-top: 15px;
 	margin-right: auto;
@@ -53,21 +126,20 @@ h1, h2, h3, h4 {
 	color: #ffffff;
 }
 
+
+
+/* BODY TEXTS*/
 .greeting {
-/*	border-right: 1px solid white;*/
 	height: auto;
 }
-
 .greeting img{
 	margin-left: 20%;
 	margin-top: 40%;
 }
-
 .lowerbg img{
 	width: 100%;
 	background-size: cover;
 }
-
 .intro {
 	margin-top: 50px;
 /*	border-bottom: 1px solid white;*/
@@ -75,12 +147,25 @@ h1, h2, h3, h4 {
 	padding-left: 50px !important;
 	padding-top: 40px !important;
 }
-
 .intro2 {
 	padding-top: 20px;
 	padding-bottom: 40px;
 }
 
+
+
+/* VIDEO BACKGROUND*/
+.videobg {
+	width: 100%;
+	height: 850px;
+	margin: 0 auto;
+	position: absolute;
+	display: table-cell;
+}
+
+
+
+/* PROJECT PAGES*/
 .pages {
 	margin-top: 0px !important;
 	top: 0;
@@ -89,11 +174,9 @@ h1, h2, h3, h4 {
 	min-height: 650px;
 	background-color: black;
 }
-
 .contents {
 	margin-top: 150px;
 }
-
 .header {
 	position: fixed;
 	width: 100%;
@@ -103,14 +186,9 @@ h1, h2, h3, h4 {
 	left: 0px;
 }
 
-.videobg {
-	width: 100%;
-	height: 850px;
-	margin: 0 auto;
-	position: absolute;
-	display: table-cell;
-}
 
+
+/* SECTION BODYing*/
 #projects {
 	min-height: 650px;
 	padding-top: 40px;
@@ -123,6 +201,9 @@ h1, h2, h3, h4 {
 	background-size: cover;
 }
 
+
+
+/* MEDIA QUERIES */
 @media (max-width: 1200px) {
 	.videobg {
 		height: 1150px;
@@ -133,6 +214,14 @@ h1, h2, h3, h4 {
 	}
 }
 
+@media (max-width: 770px) {
+	.location {
+		display: none;
+	}
+	.menus {
+		display: none;
+	}
+}
 /*.center {
 	margin-left: auto;
 	margin-right: auto;
