@@ -23,7 +23,7 @@ h1, h2, h3, h4 {
 	background-position: 0px 0px;
 	transition: background-position 0.3s ease;
 }
-.facebook {
+/*.facebook {
 	margin-left: 20px;
 	margin-top: 10px;
 	background: url(../img/ssnicons2.png) no-repeat;
@@ -31,7 +31,7 @@ h1, h2, h3, h4 {
 	height: 30px;
 	background-position: -30px 0px;
 	transition: background-position 0.3s ease;
-}
+}*/
 .linkedin {
 	margin-left: 20px;
 	margin-top: 10px;
@@ -47,7 +47,7 @@ h1, h2, h3, h4 {
 	background: url(../img/ssnicons2.png) no-repeat;
 	width: 30px;
 	height: 30px;
-	background-position: -90px 0px;
+	background-position: -89px 0px;
 	transition: background-position 0.3s ease;
 }
 .email {
@@ -63,14 +63,14 @@ h1, h2, h3, h4 {
 .twitter:hover {
 	background-position: 0px -30px;
 }
-.facebook:hover {
+/*.facebook:hover {
 	background-position: -30px -30px;
-}
+}*/
 .linkedin:hover {
 	background-position: -59px -30px;
 }
 .github:hover {
-	background-position: -90px -30px;
+	background-position: -89px -30px;
 }
 .email:hover {
 	background-position: -120px -30px;
