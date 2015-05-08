@@ -47,7 +47,9 @@ body {
 }
 
 /* ---- isobutton-group ---- */
-
+.isobutton-group {
+  padding-top: 30px;
+}
 .isobutton-group:after {
   content: '';
   display: block;

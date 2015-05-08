@@ -206,11 +206,16 @@ h1, h2, h3, h4 {
 /* MEDIA QUERIES */
 @media (max-width: 1200px) {
 	.videobg {
-		height: 1150px;
+		height: 1300px;
 	}
 
 	#projects {
 	width: 100% !important;
+	}
+
+	.intro {
+		border-left: 0px;
+		border-bottom: 0px;
 	}
 }
 
