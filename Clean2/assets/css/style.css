@@ -1059,7 +1059,7 @@ body {
   padding: 10px;
 /*  background: #888;*/
   color: #262524;
-  transition: all .2s ease-in-out; 
+/*  transition: all .2s ease-in-out; */
 }
 
 .element-item:hover {
