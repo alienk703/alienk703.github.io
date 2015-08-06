@@ -355,6 +355,46 @@ textarea.form-control {
 	padding: 0;
 }
 
+
+
+#dwellwell {
+	background: url(../images/dwellwell/dwellwell_bg.jpg);
+	background-color: #222;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		 -o-background-size: cover;
+			background-size: cover;
+	padding: 0;
+}
+
+#weatheralarm {
+	background: url(../images/weatheralarm/weatheralarm_bg.jpg);
+	background-color: #222;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		 -o-background-size: cover;
+			background-size: cover;
+	padding: 0;
+}
+
+.design-overlay {
+	background-color: rgba(0, 3, 255, 0.4);
+	background-image: url("../images/pattern.png");
+    background-repeat: repeat;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
 .home-overlay {
     background-color: rgba(44, 62, 80, 0.3);
     background-image: url("../images/pattern.png");
@@ -404,6 +444,13 @@ textarea.form-control {
 	padding: 40px 20px;
 	margin: 0 0 20px;
 }
+.iconbox-portfolio {
+	background: #fff;
+	border-bottom: 1px solid #d4d4d4;
+	text-align: left;
+	padding: 40px 20px;
+	margin: 0 0 20px;
+}
 
 .iconbox-icon {
 	margin: 0 0 15px;
@@ -414,6 +461,10 @@ textarea.form-control {
 .iconbox-title {
 	margin: 0 0 15px;
 	padding: 0;
+}
+.iconbox-title2 {
+	margin: 0 0 15px;
+	padding-top: 30px;
 }
 
 /* ---------------------------------------------- /*
