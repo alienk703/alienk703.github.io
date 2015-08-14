@@ -32,6 +32,9 @@ a:hover {
  * Transition elsements
 /* ---------------------------------------------- */
 
+.break, .break2 {
+	display: none;
+}
 
 .navbar a,
 .form-control {
@@ -733,7 +736,16 @@ textarea.form-control {
 /* ---------------------------------------------- /*
  * Media
 /* ---------------------------------------------- */
-
+@media (max-width: 1200px) {
+	.break2{
+		display: block;
+	}
+}
+@media (max-width: 1000px) {
+	.break{
+		display: block;
+	}
+}
 @media (max-width: 767px) {
 
 	.calltoaction {

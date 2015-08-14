@@ -29,6 +29,9 @@ img {
 Main Components 
 
 -------------------------------- */
+.break {
+    display: none;
+}
 header {
   height: 170px;
   line-height: 170px;

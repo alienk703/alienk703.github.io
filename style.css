@@ -1,7 +1,9 @@
 html {
 	background-color: #E6E6E5;
 }
-
+.break {
+    display: none;
+}
 
 /*.construction {
 	background: url(constructionbg.svg) no-repeat;
