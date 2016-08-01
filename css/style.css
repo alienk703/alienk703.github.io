@@ -29,6 +29,10 @@ img {
 Main Components 
 
 -------------------------------- */
+
+.do-sun {
+  background: url('assets/images/do_sun_icon.png');
+}
 .break {
     display: none;
 }

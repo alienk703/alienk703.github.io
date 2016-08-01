@@ -5,6 +5,10 @@ html {
     display: none;
 }
 
+.do-sun {
+	background: url('assets/images/do_sun_icon.png');
+}
+
 /*.construction {
 	background: url(constructionbg.svg) no-repeat;
 	width: 100%;
