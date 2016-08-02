@@ -11,4 +11,10 @@ $(document).ready(function(){
           window.location.hash = target;
       });
   });
+$('.grid').masonry({
+    // options
+    itemSelector: '.grid-item',
+    columnWidth: 1000
+  });
+  
 });
