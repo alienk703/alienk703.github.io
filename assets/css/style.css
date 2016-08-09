@@ -63,6 +63,11 @@ a:hover {
     background: url('../images/cafe_twelve.png');
     background-size: cover;
 }
+.pulse_bnr {
+		    background-repeat: no-repeat;
+    background: url('../images/banner_icon.png');
+    background-size: cover;
+}
 .break, .break2 {
 	display: none;
 }
