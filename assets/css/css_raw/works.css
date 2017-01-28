@@ -1,0 +1,127 @@
+.works-page {
+	background: url(../images/andy-hero_2017.png);
+}
+.gradient-back {
+	width: 100vw;
+	position: absolute;
+	margin-top: -50px;
+}
+.works-nav .navbar-brand, .navbar-custom .navbar-nav > li > a, .works-nav .navbar-nav .dropdown-menu > li > a {
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+.work-wrapper {
+	width: 80%;
+}
+.page-title {
+	 font-size: 60px;
+    text-align: right;
+    margin: 120px 0px 0px 40px;
+}
+.portfolio-list {
+	padding: 20px 5px 20px 10px;
+}
+.portfolio-list li {
+	width: 100%;
+}
+.portfolio-list .pause a div.overlay{
+    z-index: 1;
+    background-color: #0073d1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    top: 0;
+}
+
+.portfolio-list .pause a div.overlay:hover{
+    opacity: 0.5;
+}
+
+a:hover {
+    outline: 0;
+}
+
+.portfolio-list li .h__module {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,0);
+}
+.portfolio-list li a:hover .h__module {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%,-50%);
+    background-color: black;
+}
+.portfolio-list li a img {
+    transition: transform .75s;
+}
+
+.portfolio-list li img {
+    width: 100%;
+    background-size: cover;
+}
+.portfolio-list li a {
+    display: block;
+    position: relative;
+    height: 0;
+    padding-bottom: 60%;
+    overflow: hidden;
+}
+.portfolio-list li a:hover img {
+    transform: scale(1.1);
+}
+
+/* MODAL */
+.work-nadbc-overlay, .work-asbmt-overlay, .work-ros-overlay, .work-vit-overlay, .work-pulse-overlay {
+	display: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+    z-index: 10000000;
+    text-align: center;
+}
+.modal-on-nadbc, .modal-on-asbmt, .modal-on-ros, .modal-on-vit, .modal-on-pulse{
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%; 
+}
+.go-back {
+  font-size: 24px;
+  font-family: georgia, "Times New Roman", serif;
+  font-style: italic;
+  color: white;
+  display: inline-block;
+  position: absolute;
+  padding-left: 52px;
+  right: 50px;
+  top: 50px; }
+
+
+
+
+@media (max-width: 450px) {
+	.page-title {
+		font-size: 30px;
+	}
+	.name_tag {
+		margin-left: 12px;
+	}
+}
+
+
