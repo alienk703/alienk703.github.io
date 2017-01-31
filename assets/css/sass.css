@@ -1275,6 +1275,18 @@ body {
   position: absolute;
   margin-top: -50px; }
 
+.dl-btn {
+  text-align: left;
+  padding: 20px 60px 40px 60px; }
+  .dl-btn a {
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 15px; }
+  .dl-btn a:hover {
+    background-color: black;
+    color: #ffffff;
+    transition: all ease .4s; }
+
 .works-nav .navbar-brand, .navbar-custom .navbar-nav > li > a, .works-nav .navbar-nav .dropdown-menu > li > a {
   font-size: 11px;
   letter-spacing: 3px;
@@ -1405,7 +1417,7 @@ a:hover {
 
 .role {
   text-align: left;
-  padding: 0px 60px 40px;
+  padding: 0px 60px 20px;
   margin-bottom: 0px; }
 
 @media (max-width: 450px) {
