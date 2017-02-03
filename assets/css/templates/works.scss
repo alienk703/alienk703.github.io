@@ -139,7 +139,7 @@ a:hover {
 }
 
 /* MODAL */
-.work-nadbc-overlay, .work-asbmt-overlay, .work-ros-overlay, .work-vit-overlay, .work-pulse-overlay {
+.work-nadbc-overlay, .work-asbmt-overlay, .work-ros-overlay, .work-vit-overlay, .work-pulse-overlay, .work-walarm-overlay {
 	display: none;
     position: fixed;
     height: 100%;
@@ -152,7 +152,7 @@ a:hover {
     z-index: 10000000;
     text-align: center;
 }
-.modal-on-nadbc, .modal-on-asbmt, .modal-on-ros, .modal-on-vit, .modal-on-pulse{
+.modal-on-nadbc, .modal-on-asbmt, .modal-on-ros, .modal-on-vit, .modal-on-pulse, .modal-on-walarm{
   overflow: hidden;
   position: fixed;
   width: 100%;

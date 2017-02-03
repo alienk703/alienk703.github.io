@@ -55,6 +55,16 @@ $(document).ready(function() {
 		   $(".work-pulse-overlay").hide();
 	    });
 
+	    $(".works-walarm").click(function(){
+		   $("body").addClass("modal-on-walarm");
+		   $(".work-walarm-overlay").show();
+	    });
+
+	    $(".go-back").click(function(){
+		   $("body").removeClass("modal-on-walarm");
+		   $(".work-walarm-overlay").hide();
+	    });
+
 	    console.log("working?")
 
 
