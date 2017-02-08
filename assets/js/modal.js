@@ -79,14 +79,5 @@ $(document).ready(function() {
 
 
 
-
-
-
-
-
-
-
-
-
 	});
 });
