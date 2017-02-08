@@ -139,20 +139,20 @@ a:hover {
 }
 
 /* MODAL */
-.work-nadbc-overlay, .work-asbmt-overlay, .work-ros-overlay, .work-vit-overlay, .work-pulse-overlay, .work-walarm-overlay {
+.work-nadbc-overlay, .work-asbmt-overlay, .work-ros-overlay, .work-vit-overlay, .work-pulse-overlay, .work-walarm-overlay, .work-htmle-overlay {
 	display: none;
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.9);
-    overflow-y: scroll;
-    overflow-x: hidden;
-    top: 0;
-    left: 0;
-    z-index: 10000000;
-    text-align: center;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  top: 0;
+  left: 0;
+  z-index: 10000000;
+  text-align: center;
 }
-.modal-on-nadbc, .modal-on-asbmt, .modal-on-ros, .modal-on-vit, .modal-on-pulse, .modal-on-walarm{
+.modal-on-nadbc, .modal-on-asbmt, .modal-on-ros, .modal-on-vit, .modal-on-pulse, .modal-on-walarm, .modal-on-htmle {
   overflow: hidden;
   position: fixed;
   width: 100%;
@@ -180,12 +180,20 @@ a:hover {
   background-color: #ffffff;
   margin: 100px 0px 100px 0px;
 }
+.work-section-htmle {
+  background-color: #e6e6e6;
+  margin: 100px 0px 100px 0px;
+}
 .about-section {
   background-color: #ffffff;
   margin: 40px 0px 100px 0px;
 }
 .work-desc {
   text-align: left;
+  padding: 60px 60px 20px 60px;
+}
+.work-desc-htmle {
+  text-align: center;
   padding: 60px 60px 20px 60px;
 }
 .company {
@@ -199,6 +207,21 @@ a:hover {
   margin-bottom: 0px;
 }
 
+
+.fotorama__wrap {
+  margin: 0 auto !important;
+}
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background-color: #ffffff;
+  }
+  .works-nav .navbar-brand, .navbar-custom .navbar-nav > li > a, .works-nav .navbar-nav .dropdown-menu > li > a {
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: #3ec39e;
+  }
+}
 
 @media (max-width: 450px) {
 	.page-title {

@@ -65,6 +65,16 @@ $(document).ready(function() {
 		   $(".work-walarm-overlay").hide();
 	    });
 
+	   	$(".works-htmle").click(function(){
+		   $("body").addClass("modal-on-htmle");
+		   $(".work-htmle-overlay").show();
+	    });
+
+	    $(".go-back").click(function(){
+		   $("body").removeClass("modal-on-htmle");
+		   $(".work-htmle-overlay").hide();
+	    });
+
 	    console.log("working?")
 
 
