@@ -1454,7 +1454,17 @@ a:hover {
   .works-nav .navbar-brand, .navbar-custom .navbar-nav > li > a, .works-nav .navbar-nav .dropdown-menu > li > a {
     font-size: 11px;
     letter-spacing: 3px;
-    color: #3ec39e; } }
+    color: #3ec39e; }
+
+  .no-float-about {
+    margin: 0px auto; }
+
+  .about-main, .skills, .other {
+    padding: 40px;
+    font-size: 28px; } }
+@media (max-width: 500px) {
+  .about-main, .skills, .other {
+    font-size: 22px; } }
 @media (max-width: 450px) {
   .page-title {
     font-size: 30px; }
