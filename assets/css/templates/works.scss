@@ -235,6 +235,13 @@ a:hover {
     letter-spacing: 3px;
     color: #3ec39e;
   }
+  .no-float-about {
+    margin: 0px auto;
+  }
+  .about-main, .skills, .other {
+    padding: 40px;
+    font-size: 28px;
+  }
 }
 
 @media (max-width: 450px) {
