@@ -1461,7 +1461,10 @@ a:hover {
 
   .about-main, .skills, .other {
     padding: 40px;
-    font-size: 28px; } }
+    font-size: 28px; }
+
+  .page-title {
+    margin-bottom: 30px !important; } }
 @media (max-width: 500px) {
   .about-main, .skills, .other {
     font-size: 22px; }
