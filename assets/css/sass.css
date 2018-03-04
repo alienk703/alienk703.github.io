@@ -136,8 +136,10 @@ nav {
   margin-top: -50px; }
 
 .nav-head {
+  max-width: 1170px;
   width: 100%;
-  margin: 0px; }
+  margin: 0px auto;
+  padding: 50px 15px; }
 
 #gradient {
   padding: 0px;
@@ -241,34 +243,75 @@ a,
  * Typography
 /* ---------------------------------------------- */
 h1, h2, h3, h4, h5, h6 {
-  font: 700 40px/1.2 Abel, sans-serif;
-  text-transform: uppercase;
+  font: 34px/1.2 Abel, sans-serif;
   letter-spacing: 5px;
   margin: 5px 0 5px;
   color: #222; }
 
+h1 {
+  font-weight: 700; }
+
 h2 {
+  font-weight: 700;
   font-size: 30px;
   margin: 0 0 30px; }
 
 h3 {
-  font-size: 13px;
+  font-weight: 700;
+  font-size: 22px;
   letter-spacing: 1px;
   margin: 0 0 5px; }
 
+.about-h3 {
+  font-weight: 400; }
+
 h4 {
-  font-size: 12px;
+  font-weight: 400;
+  font-size: 18px;
   letter-spacing: 1px; }
 
 h5 {
-  font-size: 12px;
+  font-weight: 200;
+  font-size: 16px;
   letter-spacing: 1px;
   font-weight: 400; }
 
 h6 {
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: 1px;
   font-weight: 400; }
+
+.last {
+  padding-bottom: 100px; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.about-subtitle {
+  border-left: 4px solid #2e51dc;
+  padding-left: 20px; }
+
+.about-subtitle-sm {
+  padding-left: 20px; }
+
+.skill-bar {
+  background: #f2f5f8;
+  height: 15px;
+  position: relative; }
+
+.skill-wrap {
+  margin: 30px 0px; }
+
+.be-skill {
+  position: absolute;
+  height: 15px; }
+
+.about-box {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ebebeb; }
+
+.about-exp {
+  margin: 30px 0px; }
 
 /* ---------------------------------------------- /*
  * Reset border-radius
@@ -488,7 +531,7 @@ textarea.form-control {
 /* ---------------------------------------------- /*
  * Home
 /* ---------------------------------------------- */
-#home {
+#home, #work-header {
   /*	background: url(../images/bg_a_2016.png);
   	background-color: #222;
   	background-attachment: fixed;
@@ -498,7 +541,8 @@ textarea.form-control {
   	   -moz-background-size: contain;
   		 -o-background-size: contain;
   			background-size: contain;
-  	padding: 0;*/ }
+  	padding: 0;*/
+  margin: 50px 0px 70px 0px; }
 
 #dwellwell {
   background: url(../images/dwellwell/dwellwell_bg.jpg);
@@ -708,7 +752,7 @@ textarea.form-control {
 .navbar-custom .navbar-nav .dropdown-menu > li > a {
   font-size: 11px;
   letter-spacing: 3px;
-  color: #ffffff; }
+  color: #000000; }
 
 .navbar-custom .nav li.active,
 .navbar-custom .nav li a:hover,
@@ -1289,8 +1333,7 @@ body {
 
 .works-nav .navbar-brand, .navbar-custom .navbar-nav > li > a, .works-nav .navbar-nav .dropdown-menu > li > a {
   font-size: 11px;
-  letter-spacing: 3px;
-  color: #ffffff; }
+  letter-spacing: 3px; }
 
 .work-pg a {
   color: #ed880c !important; }
@@ -1298,10 +1341,77 @@ body {
 .work-wrapper {
   width: 80%; }
 
+.work-thumb {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  margin-bottom: 30px; }
+
+.work-title {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: #ebebeb;
+  /* border: 5px solid #ebebeb; */
+  opacity: 0;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  transition: opacity 0.6s;
+  vertical-align: middle;
+  line-height: 270px; }
+  .work-title h2, .work-title h4 {
+    display: inline-table;
+    vertical-align: middle;
+    line-height: 100%; }
+
+/*@media (max-width: 1200px) {
+  .work-title {
+    h2 {
+      margin-bottom: 50px;
+    }
+        width: 282px;
+    height: 211px;
+  }
+}
+@media (max-width: 991px) {
+  .work-title {
+    h2 {
+      margin-top: 210px;
+    }
+    width: 640px;
+    height: 480px;
+  }
+}*/
+.work-title:hover {
+  opacity: 0.9; }
+
+.work-category {
+  font-size: 14px; }
+
+.work-desc {
+  line-height: 24px; }
+
+.work-stats {
+  margin-bottom: 50px; }
+
+.home-title {
+  font-size: 24px;
+  text-align: center;
+  margin: 20px 0px 10px 0px !important;
+  width: 226px !important;
+  color: #ffffff;
+  padding: 0px 20px !important;
+  height: auto !important; }
+
 .page-title {
   font-size: 80px;
   text-align: center;
-  margin: 120px 40px 80px 40px !important;
+  margin: 60px 0px 10px 0px !important;
   height: auto !important;
   width: auto !important;
   color: #ffffff; }
@@ -1425,10 +1535,6 @@ a:hover {
 .about-section {
   background-color: #ffffff;
   margin: 40px 0px 100px 0px; }
-
-.work-desc {
-  text-align: left;
-  padding: 60px 60px 20px 60px; }
 
 .work-desc-htmle {
   text-align: center;

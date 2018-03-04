@@ -57,8 +57,10 @@ nav {
 	margin-top: -50px;
 }
 .nav-head {
+	max-width: 1170px;
 	width: 100%;
-	margin: 0px;
+	margin: 0px auto;
+	padding: 50px 15px;
 }
 
 #gradient {
@@ -171,41 +173,79 @@ a,
 /* ---------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-	font: 700 40px/1.2 Abel, sans-serif;
-	text-transform: uppercase;
+	font: 34px/1.2 Abel, sans-serif;
 	letter-spacing: 5px;
 	margin: 5px 0 5px;
 	color: #222;
 }
-
+h1 {
+	font-weight: 700;
+}
 h2 {
+	font-weight: 700;
 	font-size: 30px;
 	margin: 0 0 30px;
 }
 
 h3 {
-	font-size: 13px;
+	font-weight: 700;
+	font-size: 22px;
 	letter-spacing: 1px;
 	margin: 0 0 5px;
 }
-
+.about-h3 {
+	font-weight: 400;
+}
 h4 {
-	font-size: 12px;
+	font-weight: 400;
+	font-size: 18px;
 	letter-spacing: 1px;
 }
 
 h5 {
-	font-size: 12px;
+	font-weight: 200;
+	font-size: 16px;
 	letter-spacing: 1px;
 	font-weight: 400;
 }
 
 h6 {
-	font-size: 11px;
+	font-size: 12px;
 	letter-spacing: 1px;
 	font-weight: 400;
 }
-
+.last {
+	padding-bottom: 100px;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.about-subtitle {
+	border-left: 4px solid #2e51dc;
+    padding-left: 20px;
+}
+.about-subtitle-sm {
+	padding-left: 20px;
+}
+.skill-bar {
+	background: #f2f5f8;
+	height: 15px;
+    position: relative;
+}
+.skill-wrap {
+	margin: 30px 0px;
+}
+.be-skill {
+	position: absolute;
+	height: 15px;
+}
+.about-box {
+	padding-bottom: 50px;
+    border-bottom: 1px solid #ebebeb;
+}
+.about-exp {
+	margin: 30px 0px;
+}
 /* ---------------------------------------------- /*
  * Reset border-radius
 /* ---------------------------------------------- */
@@ -461,7 +501,7 @@ textarea.form-control {
  * Home
 /* ---------------------------------------------- */
 
-#home {
+#home, #work-header {
 /*	background: url(../images/bg_a_2016.png);
 	background-color: #222;
 	background-attachment: fixed;
@@ -472,6 +512,7 @@ textarea.form-control {
 		 -o-background-size: contain;
 			background-size: contain;
 	padding: 0;*/
+	margin: 50px 0px 70px 0px;
 }
 
 #dwellwell {
@@ -710,7 +751,7 @@ textarea.form-control {
 .navbar-custom .navbar-nav .dropdown-menu > li > a {
 	font-size: 11px;
 	letter-spacing: 3px;
-	color: #ffffff;
+	color: #000000;
 }
 
 .navbar-custom .nav li.active,
