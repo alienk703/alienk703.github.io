@@ -5,7 +5,7 @@
 @import url(https://fonts.googleapis.com/css?family=Abel);
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Karla|Pavanam&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans|Red+Hat+Display|Roboto|Source+Sans+Pro&display=swap');
 /*!
  * My Portfolio v1.0.0
  * Homepage: http://scripteden.com
@@ -14,8 +14,8 @@
 */
 
 body {
-	font: 300 14px/1.8 'Lato', sans-serif;
-	color: #666;
+	font: 300 16px/1.8 'Source Sans Pro', sans-serif;
+	color: #000000;
 	overflow-x: hidden;
 }
 
@@ -63,7 +63,6 @@ nav {
 	max-width: 1170px;
 	width: 100%;
 	margin: 0px auto;
-	padding: 50px 15px;
 }
 
 #gradient {
@@ -81,6 +80,48 @@ nav {
     position: fixed;
     width: 20px;
     margin-left: 20px;
+}
+.cisco_logo {
+	width: 100px;
+	padding: 10px 0px;
+}
+.cult_logo {
+	width: 200px;
+	padding: 10px 0px;
+}
+.cisco_blue {
+	background-color: #1e4471;
+	color: #ffffff;
+}
+.cultivate_eggshell {
+	background-color: #fbe0b6;
+	color: #51312d;
+}
+.fancrew_purple {
+	background-color: #4b255d;
+	color: #ffffff;
+}
+.product_site div h1, .product_site div h3, .product_site div h4, .product_site div h5{
+	color: #ffffff !important ;
+}
+
+@media (min-width: 1200px) {
+	.container-small {
+		width: 970px !important;
+	}
+}
+
+.img-center {
+	margin: 0 auto;
+	display: block;
+}
+.div-center {
+	margin: 0 auto;
+	display: block;
+	float: none;
+}
+.content-panel {
+	padding: 50px 30px 50px 30px;
 }
 /*.big_a {
 	width: 20%;
@@ -107,6 +148,21 @@ nav {
 	width: 7%;
 	margin: 15px 20px 15px 0px;
 }*/
+.icon-center {
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+.icon-pad {
+	padding: 0px 20px;
+}
+.icon-size {
+	width: 24px;
+	height: 24px;
+}
+svg:hover {
+  fill: #3c59d6;
+}
 
 .mock-ups {
 	padding-top: 100px;
@@ -176,10 +232,10 @@ a,
 /* ---------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-	font: 34px/1.4 quicksand, sans-serif;
+	font: 34px/1.4 Raleway, sans-serif;
 	letter-spacing: 1px;
 	margin: 5px 0 5px;
-	color: #39393b;
+	color: #000000;
 }
 h1 {
 	font-weight: 200;
@@ -217,8 +273,11 @@ h6 {
 	letter-spacing: 1px;
 	font-weight: 400;
 }
+.txt-box-pad-bot-20 {
+	padding-bottom: 20px;
+}
 .last {
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 }
 .uppercase {
 	text-transform: uppercase;
@@ -515,7 +574,7 @@ textarea.form-control {
 		 -o-background-size: contain;
 			background-size: contain;
 	padding: 0;*/
-	margin: 50px 0px 70px 0px;
+	margin: 50px 0px 30px 0px;
 }
 
 #dwellwell {
