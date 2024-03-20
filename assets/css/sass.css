@@ -170,6 +170,10 @@ nav {
   background-color: #1e4471;
   color: #ffffff; }
 
+.cisco_black {
+  background-color: #141414;
+  color: #ffffff; }
+
 .cultivate_eggshell {
   background-color: #fbe0b6;
   color: #51312d; }
@@ -194,7 +198,7 @@ nav {
   float: none; }
 
 .content-panel {
-  padding: 50px 30px 50px 30px; }
+  padding: 80px 30px 80px 30px; }
 
 /*.big_a {
 	width: 20%;
@@ -221,6 +225,13 @@ nav {
 	width: 7%;
 	margin: 15px 20px 15px 0px;
 }*/
+.no-pad {
+  padding: 0px !Important;
+}
+
+.text-white {
+  color: #ffffff ;}
+
 .icon-center {
   margin: 0 auto;
   display: block;
