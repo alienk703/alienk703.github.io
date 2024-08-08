@@ -187,7 +187,7 @@ nav {
 
 @media (min-width: 1200px) {
   .container-small {
-    width: 970px !important; } }
+    width: 780px !important; } }
 .img-center {
   margin: 0 auto;
   display: block; }
@@ -196,7 +196,9 @@ nav {
   margin: 0 auto;
   display: block;
   float: none; }
-
+.custom-list {
+  padding-bottom: 20px;
+}
 .content-panel {
   padding: 80px 30px 80px 30px; }
 
@@ -228,9 +230,20 @@ nav {
 .no-pad {
   padding: 0px !Important;
 }
-
+.text-box{
+  padding: 20px 0px 20px 0px;
+}
 .text-white {
   color: #ffffff ;}
+
+.project-title {
+  color: #9d9d9d;
+  font-size: 18px;
+}
+
+.project-section{
+  padding-bottom: 60px;
+}
 
 .icon-center {
   margin: 0 auto;
@@ -243,9 +256,11 @@ nav {
 .icon-size {
   width: 24px;
   height: 24px; }
-
+svg {
+  fill: white;
+}
 svg:hover {
-  fill: #3c59d6; }
+  fill: #51f075; }
 
 .mock-ups {
   padding-top: 100px; }
@@ -352,8 +367,22 @@ h6 {
 .txt-box-pad-bot-20 {
   padding-bottom: 20px; }
 
+.txt-box-pad-bot-40 {
+  padding-bottom: 40px; }
+
+.txt-box-pad-bot-60 {
+  padding-bottom: 60px; }
+
+.txt-box-pad-bot-80 {
+  padding-bottom: 80px; }
+.txt-box-pad-bot-100 {
+  padding-bottom: 100px; }
+
+.text-grey {
+  color: #848484;
+}
 .last {
-  padding-bottom: 50px; }
+  padding-bottom: 150px; }
 
 .uppercase {
   text-transform: uppercase; }
@@ -1473,7 +1502,7 @@ body {
 .home-title {
   font-size: 24px;
   text-align: center;
-  margin: 20px 0px 10px 0px !important;
+  margin: 20px 0px 40px 0px !important;
   width: 226px !important;
   color: #ffffff;
   padding: 0px 20px !important;
