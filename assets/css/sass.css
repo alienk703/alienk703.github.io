@@ -1445,7 +1445,7 @@ body {
   cursor: pointer;
   position: relative;
   display: block;
-  margin-bottom: 30px; }
+  margin-bottom: 20px; }
 
 .work-title {
   position: absolute;
@@ -1488,7 +1488,7 @@ body {
   }
 }*/
 .work-title:hover {
-  opacity: 0.9; }
+  opacity: 0.1; }
 
 .work-category {
   font-size: 14px; }
