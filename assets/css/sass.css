@@ -363,6 +363,12 @@ h6 {
   font-size: 12px;
   letter-spacing: 1px;
   font-weight: 400; }
+  
+.video-inst {
+  overflow: hidden;
+  width: 100%;
+  container-type: inline-size;
+}
 
 .txt-box-pad-bot-20 {
   padding-bottom: 20px; }
